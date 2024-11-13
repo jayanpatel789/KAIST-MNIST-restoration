@@ -12,15 +12,15 @@ The dataset used for this project wsa the SOCOFing dataset, which can be downloa
 
 ## Models
 ### Single U-Net
-![Single U-Net](imgs/Single-u-net.png)
+![Single U-Net](imgs/single-u-net.jpg)
 The baseline architecture for fingerprint restoration.
 
 ### Double U-Net
-![Double U-Net](imgs/Double-u-net.png)
+![Double U-Net](imgs/double-u-net.jpg)
 Two standard U-net architectures connected in series.
 
 ### Connected U-Net
-![Connected U-Net](imgs/Connected-u-net.png)
+![Connected U-Net](imgs/connected-u-net.jpg)
 Two standard U-net architectures connected in series. The feature maps from the first U-net are stored and passed into the second U-net during the decoding phase.
 
 Each folder contains the U-Net parts, model classes, dataloader, training and testing programs.
